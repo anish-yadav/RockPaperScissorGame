@@ -30,8 +30,8 @@ public class MajorAssignment {
 	/*Starting an if statement to check whether a character exceeds the limit of UPPERCASE character 
 	 * And if it did then return it back from 'A'       */
 	
-	if(m>91) {
-    m = 64+(m-91);
+	if(m>90) {
+    m = 64+(m-90);
 	}
 	
 	ch1 = (char)m;	     // return the character value from each encrypted ASCII values
